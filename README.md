@@ -202,7 +202,7 @@ DOM API			innerHTML, classList, addEventListener
 
 ## 👨‍💻 Author
 
-#YASH RAJ
+# YASH RAJ
   
 Associate Software Engineer @ Prodesk IT
 
