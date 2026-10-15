@@ -1,10 +1,9 @@
 // ==================== CONFIG ====================
-const API_BASE = "/api/github?path=users";
-
+const API_BASE = "https://api.github.com";
 
 // OPTIONAL: Add your GitHub PAT here to avoid rate-limit (60/hr -> 5000/hr)
 // Generate at: https://github.com/settings/tokens  (no scopes needed for public data)
-const GITHUB_TOKEN = ""; // <-- paste token like "ghp_xxxx" if needed
+const GITHUB_TOKEN = "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"; // <-- paste token like "ghp_xxxx" if needed
 
 const headers = GITHUB_TOKEN
   ? { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: "application/vnd.github+json" }
