@@ -203,8 +203,11 @@ DOM API			innerHTML, classList, addEventListener
 ## 👨‍💻 Author
 
 <YASH RAJ>
+  
 Associate Software Engineer @ Prodesk IT
+
 📧 yr662003@gmail.com
+
 🔗 [LinkedIn](https://www.linkedin.com/in/yash-raj-ba4414312/)
 
 ## 📜 License
