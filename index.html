@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev-Detective | GitHub Search Client</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🔍 Dev-Detective</h1>
+      <p class="subtitle">GitHub Search Client — Fetch API + Async/Await</p>
+      <button id="battleToggle" class="battle-toggle">⚔️ Battle Mode: OFF</button>
+    </header>
+
+    <!-- Single search -->
+    <section id="singleSearch" class="search-section">
+      <form id="searchForm" class="search-form">
+        <input
+          type="text"
+          id="usernameInput"
+          placeholder="Enter GitHub username (e.g. octocat)"
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Battle mode search -->
+    <section id="battleSearch" class="search-section hidden">
+      <form id="battleForm" class="search-form battle-form">
+        <input type="text" id="user1Input" placeholder="Player 1 username" required />
+        <span class="vs">VS</span>
+        <input type="text" id="user2Input" placeholder="Player 2 username" required />
+        <button type="submit">Battle 🔥</button>
+      </form>
+    </section>
+
+    <!-- Loading -->
+    <div id="loading" class="loading hidden">
+      <div class="spinner"></div>
+      <p>Loading...</p>
+    </div>
+
+    <!-- Error -->
+    <div id="errorBox" class="error hidden">
+      <h3>😕 User Not Found</h3>
+      <p id="errorMessage">No user exists with that username.</p>
+    </div>
+
+    <!-- Profile output -->
+    <div id="profileCard" class="profile-card hidden"></div>
+
+    <!-- Repos output -->
+    <div id="reposSection" class="repos-section hidden">
+      <h2>📦 Top 5 Latest Repositories</h2>
+      <div id="reposList" class="repos-list"></div>
+    </div>
+
+    <!-- Battle results -->
+    <div id="battleResults" class="battle-results hidden"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
