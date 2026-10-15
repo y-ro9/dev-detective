@@ -1,5 +1,6 @@
 // ==================== CONFIG ====================
-const API_BASE = "https://api.github.com";
+const API_BASE = "/api/github?path=users";
+
 
 // OPTIONAL: Add your GitHub PAT here to avoid rate-limit (60/hr -> 5000/hr)
 // Generate at: https://github.com/settings/tokens  (no scopes needed for public data)
