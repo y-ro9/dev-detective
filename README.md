@@ -174,20 +174,7 @@ DOM API			innerHTML, classList, addEventListener
     ☑
 
     ISO dates formatted human-readable
-
-
-## 🗺️ Roadmap
-
-    ☑
-
-    Sprint 1–2: Architecture & Synchronous Logic
-    ☑
-
-    Sprint 3–4: Asynchronous Data & APIs ← you are here
-    □
-
-    Sprint 5–8: React Framework Migration
-
+    
 
 ## 🤝 Acknowledgements
 
